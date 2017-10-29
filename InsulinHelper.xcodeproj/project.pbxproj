@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		019700E81FA5867D00DCB777 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019700E71FA5867D00DCB777 /* SwiftyJSON.swift */; };
 		01F1C7A41FA4247200F4083F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F1C7A31FA4247200F4083F /* AppDelegate.swift */; };
 		01F1C7A61FA4247200F4083F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F1C7A51FA4247200F4083F /* ViewController.swift */; };
 		01F1C7A91FA4247200F4083F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01F1C7A71FA4247200F4083F /* Main.storyboard */; };
@@ -14,6 +15,12 @@
 		01F1C7AE1FA4247200F4083F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01F1C7AC1FA4247200F4083F /* LaunchScreen.storyboard */; };
 		01F1C7B91FA4247200F4083F /* InsulinHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F1C7B81FA4247200F4083F /* InsulinHelperTests.swift */; };
 		01F1C7C41FA4247200F4083F /* InsulinHelperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F1C7C31FA4247200F4083F /* InsulinHelperUITests.swift */; };
+		01F1C7D21FA434A800F4083F /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F1C7D11FA434A800F4083F /* FoodViewController.swift */; };
+		01F1C7D61FA4FB4600F4083F /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F1C7D51FA4FB4600F4083F /* Food.swift */; };
+		01F1C7D81FA52D5900F4083F /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F1C7D71FA52D5900F4083F /* FavoritesViewController.swift */; };
+		01F1C7DB1FA54A0900F4083F /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 01F1C7DA1FA54A0900F4083F /* libsqlite3.tbd */; };
+		01F1C7E21FA54F9E00F4083F /* SQL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F1C7E11FA54F9E00F4083F /* SQL.swift */; };
+		01F1C7E41FA56E4300F4083F /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F1C7E31FA56E4300F4083F /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		019700E71FA5867D00DCB777 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 		01F1C7A01FA4247200F4083F /* InsulinHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InsulinHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01F1C7A31FA4247200F4083F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		01F1C7A51FA4247200F4083F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,13 @@
 		01F1C7BF1FA4247200F4083F /* InsulinHelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InsulinHelperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		01F1C7C31FA4247200F4083F /* InsulinHelperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsulinHelperUITests.swift; sourceTree = "<group>"; };
 		01F1C7C51FA4247200F4083F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01F1C7D11FA434A800F4083F /* FoodViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
+		01F1C7D51FA4FB4600F4083F /* Food.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		01F1C7D71FA52D5900F4083F /* FavoritesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		01F1C7DA1FA54A0900F4083F /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		01F1C7DC1FA54A2C00F4083F /* InsulinHelper-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InsulinHelper-Bridging-Header.h"; sourceTree = "<group>"; };
+		01F1C7E11FA54F9E00F4083F /* SQL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQL.swift; sourceTree = "<group>"; };
+		01F1C7E31FA56E4300F4083F /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01F1C7DB1FA54A0900F4083F /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +97,7 @@
 				01F1C7B71FA4247200F4083F /* InsulinHelperTests */,
 				01F1C7C21FA4247200F4083F /* InsulinHelperUITests */,
 				01F1C7A11FA4247200F4083F /* Products */,
+				01F1C7D91FA54A0900F4083F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +116,18 @@
 			children = (
 				01F1C7A31FA4247200F4083F /* AppDelegate.swift */,
 				01F1C7A51FA4247200F4083F /* ViewController.swift */,
+				01F1C7D11FA434A800F4083F /* FoodViewController.swift */,
 				01F1C7A71FA4247200F4083F /* Main.storyboard */,
 				01F1C7AA1FA4247200F4083F /* Assets.xcassets */,
 				01F1C7AC1FA4247200F4083F /* LaunchScreen.storyboard */,
 				01F1C7AF1FA4247200F4083F /* Info.plist */,
+				01F1C7D51FA4FB4600F4083F /* Food.swift */,
+				01F1C7D71FA52D5900F4083F /* FavoritesViewController.swift */,
+				01F1C7DC1FA54A2C00F4083F /* InsulinHelper-Bridging-Header.h */,
+				01F1C7DA1FA54A0900F4083F /* libsqlite3.tbd */,
+				01F1C7E11FA54F9E00F4083F /* SQL.swift */,
+				019700E71FA5867D00DCB777 /* SwiftyJSON.swift */,
+				01F1C7E31FA56E4300F4083F /* SettingsViewController.swift */,
 			);
 			path = InsulinHelper;
 			sourceTree = "<group>";
@@ -123,6 +148,13 @@
 				01F1C7C51FA4247200F4083F /* Info.plist */,
 			);
 			path = InsulinHelperUITests;
+			sourceTree = "<group>";
+		};
+		01F1C7D91FA54A0900F4083F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +225,7 @@
 				TargetAttributes = {
 					01F1C79F1FA4247200F4083F = {
 						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					01F1C7B31FA4247200F4083F = {
@@ -260,7 +293,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				01F1C7A61FA4247200F4083F /* ViewController.swift in Sources */,
+				01F1C7D21FA434A800F4083F /* FoodViewController.swift in Sources */,
+				01F1C7D61FA4FB4600F4083F /* Food.swift in Sources */,
+				019700E81FA5867D00DCB777 /* SwiftyJSON.swift in Sources */,
 				01F1C7A41FA4247200F4083F /* AppDelegate.swift in Sources */,
+				01F1C7D81FA52D5900F4083F /* FavoritesViewController.swift in Sources */,
+				01F1C7E21FA54F9E00F4083F /* SQL.swift in Sources */,
+				01F1C7E41FA56E4300F4083F /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,10 +453,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = InsulinHelper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wustl.InsulinHelper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "InsulinHelper/InsulinHelper-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -426,10 +468,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = InsulinHelper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wustl.InsulinHelper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "InsulinHelper/InsulinHelper-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -507,6 +551,7 @@
 				01F1C7CA1FA4247200F4083F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		01F1C7CB1FA4247200F4083F /* Build configuration list for PBXNativeTarget "InsulinHelperTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +560,7 @@
 				01F1C7CD1FA4247200F4083F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		01F1C7CE1FA4247200F4083F /* Build configuration list for PBXNativeTarget "InsulinHelperUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +569,7 @@
 				01F1C7D01FA4247200F4083F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
